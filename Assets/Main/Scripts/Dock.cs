@@ -6,7 +6,7 @@ using TMPro;
 public class Dock : MonoBehaviour {
 
     public float captureTime = 5f;
-    [SerializeField] private GameObject flag;
+    [SerializeField] GameObject flag;
     [TextArea]
     [SerializeField] string journalEntry;
     GameObject notebook;
@@ -15,6 +15,7 @@ public class Dock : MonoBehaviour {
     bool docked = false;
     bool discovered = false;
     Rigidbody2D balloon;
+    [SerializeField] Vector3 flagOffset = new Vector3(0.3f, -1.05f, 0);
 
     private void Start()
     {
@@ -54,7 +55,8 @@ public class Dock : MonoBehaviour {
 
     private void Discover() {
         discovered = true;
-        flag.SetActive(true);
+        GameObject plantedFlag = Instantiate(flag, transform);
+        plantedFlag.transform.position = balloon.transform.position + flagOffset;
         textBox.SetText(journalEntry);
         notebook.SetActive(true);
         balloon.gravityScale = 0.1f;
