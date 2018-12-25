@@ -334,6 +334,11 @@ Prefab:
       propertyPath: flagOffset.y
       value: -1.05
       objectReference: {fileID: 0}
+    - target: {fileID: 212066382407012812, guid: 2f9be694de7f74c43a219c6aee79e2d6,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f9be694de7f74c43a219c6aee79e2d6, type: 2}
   m_IsPrefabAsset: 0
@@ -478,6 +483,11 @@ Prefab:
         type: 2}
       propertyPath: flagOffset.y
       value: -1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 212066382407012812, guid: 2f9be694de7f74c43a219c6aee79e2d6,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f9be694de7f74c43a219c6aee79e2d6, type: 2}
@@ -5428,7 +5438,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 1c44e842edd9648fa85a6ec3847c3006, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7180,6 +7190,11 @@ Prefab:
       propertyPath: flagOffset.y
       value: -1.05
       objectReference: {fileID: 0}
+    - target: {fileID: 212106527480204962, guid: c2edc8cc14975419db4a76d3b67da03a,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2edc8cc14975419db4a76d3b67da03a, type: 2}
   m_IsPrefabAsset: 0
@@ -7330,7 +7345,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -617035053
   m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: ef8ff1f8e683b47ef8e8368cf8f216e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
