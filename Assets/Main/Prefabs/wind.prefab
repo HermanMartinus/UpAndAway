@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4440150353077146}
   - component: {fileID: 61502785006478652}
   - component: {fileID: 114246969189436982}
+  - component: {fileID: 114540581250916880}
   m_Layer: 0
   m_Name: wind
   m_TagString: Untagged
@@ -51,14 +52,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1253698728124662}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.83, y: 4.65, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.037772905, w: 0.99928635}
+  m_LocalPosition: {x: -7.258212, y: -11.03797, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4738095459427242}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.329}
 --- !u!4 &4738095459427242
 Transform:
   m_ObjectHideFlags: 1
@@ -110,6 +111,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windMultiplier: 3
   particles: {fileID: 198445672552454442}
+--- !u!114 &114540581250916880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1253698728124662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75e4ad4d8a19d4db1b77b2299336630b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alwaysShowCollider: 1
 --- !u!198 &198445672552454442
 ParticleSystem:
   m_ObjectHideFlags: 1
