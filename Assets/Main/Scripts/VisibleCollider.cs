@@ -23,7 +23,7 @@ public class VisibleCollider : MonoBehaviour
             points.Add(b.offset + new Vector2(b.size.x/2-1f, b.size.y/2));
             points.Add(b.offset + new Vector2(b.size.x / 2, 0));
 
-            Gizmos.color = Color.green;
+            Gizmos.color = Color.cyan;
 
             // for every point (except for the last one), draw line to the next point
             for (int i = 0; i < points.Count - 1; i++)

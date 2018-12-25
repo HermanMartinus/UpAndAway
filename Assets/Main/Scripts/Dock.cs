@@ -29,7 +29,7 @@ public class Dock : MonoBehaviour {
         {
             timeLeft = captureTime;
             docked = true;
-            Debug.Log("Enter");
+            Debug.Log("Docked");
             balloon = collision.gameObject.GetComponent<Rigidbody2D>();
             balloon.gravityScale = 10f;
         }
